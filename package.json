@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/toha87/check-radio-connection/issues"
   },
-  "homepage": "https://github.com/toha87/check-radio-connection#readme"
+  "homepage": "https://github.com/toha87/check-radio-connection#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
 }
