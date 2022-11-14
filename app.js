@@ -1,6 +1,6 @@
 'use strict';
 
-const fetch = require("node-fetch");
+import fetch from "node-fetch";
 
 /**
  * Function to check if a stream is up
