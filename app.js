@@ -9,14 +9,13 @@ const getData = () => {
     fetch(process.env.STREAM_URL)
       .then(response => {
         response.json();
-        console.log(`Stream is up: ${new Date().toLocaleDateString()}`)
-        .catch(err => {
-            console.error(err);
-            console.error(`Stream is down!`);
-        });
-    })
+        console.log(`Stream is up: ${new Date().toLocaleDateString()}`);
+    }) .catch(err => {
+        console.error(err);
+        console.error(`Stream is down!`);
+    });
   }
 
 const interval = setInterval(() => {
     getData();
-  }, 1000);
+  }, 10000);
