@@ -1,0 +1,19 @@
+{
+  "name": "check-radio-connection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toha87/check-radio-connection.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toha87/check-radio-connection/issues"
+  },
+  "homepage": "https://github.com/toha87/check-radio-connection#readme"
+}
